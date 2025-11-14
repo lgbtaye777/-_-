@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600" preserveAspectRatio="xMidYMid slice">
+  <rect width="800" height="600" fill="#fff7f5" />
+  <g fill="#efe0d6">
+    <rect x="20" y="20" width="360" height="260" rx="12"/>
+    <rect x="420" y="20" width="360" height="260" rx="12"/>
+    <rect x="20" y="300" width="760" height="260" rx="12"/>
+  </g>
+  <text x="28" y="560" font-family="Manrope, Arial" font-size="18" fill="#7a5b49">Фото: оборудование</text>
+</svg>

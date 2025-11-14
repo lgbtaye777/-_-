@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Одежда под ваш бренд</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@300;400&family=Manrope:wght@200;300;400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-pap6G6Yk1k+q0ZbXkq3k2m2h2rS3Vq0y3a1K/2zKc3Gg6V9Q1ZxK1y1GQ9oVQe1g6q9s3b1d2f3g4h5i6j7k8==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page">
+
+    <!-- ШАПКА -->
+    <header class="header">
+      <div class="container header__inner">
+        <div class="header__left">
+          <div class="header__logo" aria-hidden="true">
+      
+            <img src="visual/logo.svg" alt="Логотип" class="header__logo-img">
+          </div>
+
+          <a href="tel:+88007004050" class="header__phone">+8 (800) 700 40 50</a>
+        </div>
+
+        <nav id="main-nav" class="nav" role="navigation" aria-label="Главное меню">
+          <a href="#" class="nav__link nav__link--active">Главная</a>
+          <a href="#" class="nav__link">Каталог</a>
+          <a href="#" class="nav__link">Преимущества</a>
+          <a href="#" class="nav__link">Как мы работаем</a>
+          <a href="#" class="nav__link">Контакты</a>
+        </nav>
+
+        <div class="header__right">
+          <button class="nav-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Открыть меню">
+            <span class="visually-hidden">Меню</span>
+            <span class="nav-toggle__box">
+              <span class="nav-toggle__inner"></span>
+            </span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- ПЕРВЫЙ ЭКРАН -->
+      <section class="hero">
+        <div class="container hero__inner">
+          <div class="hero__content">
+            <h1 class="hero__title">
+              Одежда под ваш бренд — от 3 дней, без посредников
+            </h1>
+
+            <ul class="hero__list">
+              <li>
+                <img src="visual/Корпоративная одежда под ключ.svg" alt="Корпоративная одежда" class="hero__icon" aria-hidden="true">
+                <span>Корпоративная одежда под ключ</span>
+              </li>
+              <li>
+                <img src="visual/Пошив лимитированных тиражей.svg" alt="Пошив лимитированных тиражей" class="hero__icon" aria-hidden="true">
+                <span>Пошив лимитированных тиражей</span>
+              </li>
+              <li>
+                <img src="visual/Создание собственной линии.svg" alt="Создание собственной линии" class="hero__icon" aria-hidden="true">
+                <span>Создание собственной линии</span>
+              </li>
+            </ul>
+
+            <div class="hero__actions">
+              <a href="#" class="btn hero__btn">
+                <span>Рассчитать стоимость</span>
+              </a>
+              <span class="hero__divider" aria-hidden="true"></span>
+              <p class="hero__note">
+                Получите бесплатные образцы перед заказом
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero__ball">
+          <img src="visual/лендинг_имг.png" alt="Клубок пряжи">
+        </div>
+      </section>
+    </main>
+
+    <!-- ВТОРОЙ ЭКРАН: Почему к нам обращаются -->
+    <section class="why">
+      <div class="container why__inner">
+        <h2 class="why__title">
+          Почему к нам обращаются,
+          <br>
+          когда нужно сделать
+          <br>
+          качественно и в срок?
+        </h2>
+
+        <div class="cards-grid">
+            <article class="card">
+              <div class="card__img" aria-hidden="true">
+                <img src="visual/block1.png" alt="Собственное производство" class="card__media">
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">Собственное производство</h3>
+                <p class="card__text">Мы шьём на своём оборудовании —
+                без подрядчиков и наценок.
+                Контроль качества на каждом этапе и
+                полная ответственность за результат.</p>
+              </div>
+            </article>
+
+            <article class="card">
+              <div class="card__img" aria-hidden="true">
+                <img src="visual/block2.png" alt="Печать на этапе кроя" class="card__media">
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">Печать на этапе кроя</h3>
+                <p class="card__text">Наносим принт до сборки изделия.
+                Это даёт идеальную точность,
+                стойкость и чистоту линий даже на
+                сложных деталях.</p>
+              </div>
+            </article>
+
+            <article class="card">
+              <div class="card__img" aria-hidden="true">
+                <img src="visual/block3.png" alt="Турецкие ткани" class="card__media">
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">Турецкие ткани,
+                <br>немецкая фурнитура</h3>
+                <p class="card__text">Мы используем проверенные
+                материалы от поставщиков с
+                репутацией.</p>
+              </div>
+            </article>
+
+            <article class="card card--with-cta">
+              <div class="card__body">
+                <h3 class="card__title">Стартуем в день
+                <br>согласования.</h3>
+
+                <div class="card__cta">
+                  <button class="btn btn--secondary btn--full">
+                    <span class="btn__icon">↗</span>
+                    <span>Что мы уже делали</span>
+                  </button>
+                  <span class="why__divider" aria-hidden="true"></span>
+                  <p class="why__caption">мы умеем делать то,
+                    <br>что другие не берут</p>
+                </div>
+              </div>
+            </article>
+          </div>
+      </div>
+    </section>
+    
+
+    
+
+    <!-- ТРЕТИЙ ЭКРАН: Production -->
+    <section class="production">
+      <div class="container production__inner">
+        <h2 class="production__title">
+          Мы имеем собственное производство
+        </h2>
+
+        <div class="production__left">
+          <div class="production__cards">
+            <article class="production__card">
+              <div class="prod__badge" aria-hidden="true">
+                <img src="visual/flat1.svg" alt="" class="prod__icon" aria-hidden="true">
+              </div>
+              <div class="prod__body">
+                <h4 class="prod__title">Без посредников</h4>
+                <p class="prod__text">Вы работаете напрямую с производством, без лишних наценок</p>
+              </div>
+            </article>
+
+            <article class="production__card">
+              <div class="prod__badge" aria-hidden="true">
+                <img src="visual/flat2.svg" alt="" class="prod__icon" aria-hidden="true">
+              </div>
+              <div class="prod__body">
+                <h4 class="prod__title">25 японских машин</h4>
+                <p class="prod__text">Современный парк оборудования для трикотажа и печати</p>
+              </div>
+            </article>
+
+            <article class="production__card">
+              <div class="prod__badge" aria-hidden="true">
+                <img src="visual/flat3.svg" alt="" class="prod__icon" aria-hidden="true">
+              </div>
+              <div class="prod__body">
+                <h4 class="prod__title">Профи-швеи</h4>
+                <p class="prod__text">Опытная команда, которая аккуратно работает со сложными изделиями</p>
+              </div>
+            </article>
+
+            <article class="production__card">
+              <div class="prod__badge" aria-hidden="true">
+                <img src="visual/flat4.svg" alt="" class="prod__icon" aria-hidden="true">
+              </div>
+              <div class="prod__body">
+                <h4 class="prod__title">Мастер-технолог в штате</h4>
+                <p class="prod__text">Контролирует посадку, материалы и качество на каждом этапе</p>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <aside class="production__gallery" aria-hidden="true">
+          <div class="gallery__large">
+            <img src="visual/prod1.png" alt="Производство"/>
+          </div>
+          <div class="gallery__small">
+            <img src="visual/prod2.png" alt="Оборудование"/>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ЧЕТВЁРТЫЙ ЭКРАН: Каталог трикотажа -->
+    <section class="catalog">
+      <div class="container catalog__inner">
+        <h2 class="catalog__title">Мы производим все виды трикотажных изделий</h2>
+
+        <div class="catalog-grid">
+          <article class="catalog__card">
+            <div class="catalog__media" aria-hidden="true">
+              <img src="visual/wear1.png" alt="Джоггеры"/>
+            </div>
+            <div class="catalog__body">
+              <h3 class="catalog__name">Джоггеры</h3>
+              <p class="catalog__price">от 100 ₽</p>
+            </div>
+            <div class="catalog__actions" aria-hidden="true"></div>
+          </article>
+
+          <article class="catalog__card">
+            <div class="catalog__media" aria-hidden="true">
+              <img src="visual/wear2.png" alt="Футболки"/>
+            </div>
+            <div class="catalog__body">
+              <h3 class="catalog__name">Футболки</h3>
+              <p class="catalog__price">от 100 ₽</p>
+            </div>
+            <div class="catalog__actions" aria-hidden="true"></div>
+          </article>
+
+          <article class="catalog__card">
+            <div class="catalog__media" aria-hidden="true">
+              <img src="visual/wear4.png" alt="Худи"/>
+            </div>
+            <div class="catalog__body">
+              <h3 class="catalog__name">Худи</h3>
+              <p class="catalog__price">от 100 ₽</p>
+            </div>
+            <div class="catalog__actions" aria-hidden="true"></div>
+          </article>
+
+          <article class="catalog__card">
+            <div class="catalog__media" aria-hidden="true">
+              <img src="visual/wear5.png" alt="Поло"/>
+            </div>
+            <div class="catalog__body">
+              <h3 class="catalog__name">Поло</h3>
+              <p class="catalog__price">от 100 ₽</p>
+            </div>
+            <div class="catalog__actions" aria-hidden="true"></div>
+          </article>
+
+          <article class="catalog__card">
+            <div class="catalog__media" aria-hidden="true">
+              <img src="visual/wear6.png" alt="Бомберы"/>
+            </div>
+            <div class="catalog__body">
+              <h3 class="catalog__name">Бомберы</h3>
+              <p class="catalog__price">от 100 ₽</p>
+            </div>
+            <div class="catalog__actions" aria-hidden="true"></div>
+          </article>
+
+          <article class="catalog__card">
+            <div class="catalog__media" aria-hidden="true">
+              <img src="visual/wear7.png" alt="Свитшоты"/>
+            </div>
+            <div class="catalog__body">
+              <h3 class="catalog__name">Свитшоты</h3>
+              <p class="catalog__price">от 100 ₽</p>
+            </div>
+            <div class="catalog__actions" aria-hidden="true"></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+      <!-- ПЯТЫЙ ЭКРАН: Процесс работы -->
+      <section class="process">
+        <div class="container process__inner">
+          <h2 class="process__title">Посмотрите, как будет выстроена работа с вами</h2>
+        
+          <div class="process__steps">
+            <div class="process__axis" aria-hidden="true"></div>
+            <article class="process__step">
+                <div class="step__badge" aria-hidden="true">
+                  <img src="visual/icon1.svg" alt="" class="step__icon" aria-hidden="true">
+                </div>
+                <h3 class="step__title">Заявка или звонок</h3>
+                <p class="step__text">
+                  Оставляете заявку на сайте или звоните нам — вместе выбираем изделие, материалы и объём партии.
+                </p>
+            </article>
+
+              <article class="process__step">
+                <div class="step__badge" aria-hidden="true">
+                  <img src="visual/icon2.svg" alt="" class="step__icon" aria-hidden="true">
+                </div>
+                <h3 class="step__title">Менеджер рассчитывает заказ</h3>
+                <p class="step__text">
+                  Менеджер считает стоимость и сроки, подбирает ткань и варианты печати под ваш запрос.
+                </p>
+              </article>
+
+              <article class="process__step">
+                <div class="step__badge" aria-hidden="true">
+                  <img src="visual/icon3.svg" alt="" class="step__icon" aria-hidden="true">
+                </div>
+                <h3 class="step__title">Договор, оплата, запуск производства</h3>
+                <p class="step__text">
+                  Фиксируем условия в договоре, принимаем оплату и запускаем заказ в производство.
+                </p>
+              </article>
+
+              <article class="process__step">
+                <div class="step__badge" aria-hidden="true">
+                  <img src="visual/icon4.svg" alt="" class="step__icon" aria-hidden="true">
+                </div>
+                <h3 class="step__title">Упаковка и доставка по РФ</h3>
+                <p class="step__text">
+                  Аккуратно упаковываем изделия и доставляем заказ в любой регион России.
+                </p>
+              </article>
+
+            </div>
+        </div>
+      </section>
+
+  </div>
+      <!-- FOOTER -->
+      <footer class="footer" role="contentinfo">
+        <div class="container footer__inner">
+          <div class="footer__top">
+            <div class="footer__col footer__col--brand">
+              <div class="footer__logo-row">
+                <img src="visual/logo.svg" alt="Логотип" class="footer__logo-img">
+              </div>
+              <p class="footer__desc">Производство трикотажной одежды под ваш бренд.<br>Шьём на своём производстве, печатаем на этапе кроя,<br>запускаем заказы от 3 дней.</p>
+            </div>
+
+            <div class="footer__col footer__col--nav">
+              <h4 class="footer__h">Навигация</h4>
+              <nav class="footer__nav" aria-label="Футер навигация">
+                <a href="#" class="nav__link">Главная</a>
+                <a href="#" class="nav__link">Каталог</a>
+                <a href="#" class="nav__link">Преимущества</a>
+                <a href="#" class="nav__link">Как мы работаем</a>
+                <a href="#" class="nav__link">Контакты</a>
+              </nav>
+            </div>
+
+            <div class="footer__col footer__col--contacts">
+              <h4 class="footer__h">Контакты</h4>
+              <div class="footer__contacts-inner">
+                <div class="footer__contacts-text">
+                  <strong>Федурин Матвей</strong><br>
+                  9-ИС205<br>
+                  Верстка сайта по учебной практике
+
+                  <p class="footer__mini">Лично контролирую запуск и сроки.<br>Помогаю подобрать изделия и материалы под вашу задачу.<br>Можно писать в мессенджеры, отвечаю сам.</p>
+
+                  <p class="footer__lines">
+                    <a href="tel:+79955750823" class="footer__link">+7 (995) 575-08-23</a><br>
+                    <a href="mailto:m-fedurin@mail.ru" class="footer__link">m-fedurin@mail.ru</a><br>
+                    <span class="footer__addr"><i class="fa-solid fa-location-dot" aria-hidden="true"></i> Новосибирск, НГУЭУ</span>
+                  </p>
+
+                  <div class="footer__socials">
+                    <a href="#" class="footer__social"><i class="fa-brands fa-telegram"></i></a>
+                    <a href="#" class="footer__social"><i class="fa-brands fa-whatsapp"></i></a>
+                  </div>
+                </div>
+
+                <div class="footer__qr-wrap">
+                  <img src="visual/qr.png" alt="QR" class="footer__qr">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="footer__bottom">
+            <div class="footer__legal">© 2025, Федурин Матвей 9-ИС205</div>
+            <div class="footer__links">
+              <a href="#" class="footer__link">Политика конфиденциальности</a>
+              <a href="#" class="footer__link">Договор-оферта</a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    <script>
+      
+      (function(){
+        var header = document.querySelector('.header');
+        if(!header) return;
+        var timeout = null;
+        var hideDelay = 180; 
+
+        function onScroll(){
+          
+          header.classList.add('header--hidden');
+          // clear previous timeout
+          if(timeout) clearTimeout(timeout);
+          // when scrolling stops, remove hidden class
+          timeout = setTimeout(function(){
+            header.classList.remove('header--hidden');
+          }, hideDelay);
+        }
+
+        
+        window.addEventListener('scroll', onScroll, { passive: true });
+      })();
+
+      
+      (function(){
+        var btn = document.querySelector('.nav-toggle');
+        var nav = document.getElementById('main-nav');
+        if(!btn || !nav) return;
+
+        var pageRoot = document.querySelector('.page');
+
+        function setExpanded(val){
+          btn.setAttribute('aria-expanded', val ? 'true' : 'false');
+          if(val){
+            nav.classList.add('nav--open');
+            btn.classList.add('open');
+            if(pageRoot) pageRoot.classList.add('dimmed-strong');
+          } else {
+            nav.classList.remove('nav--open');
+            btn.classList.remove('open');
+            if(pageRoot) pageRoot.classList.remove('dimmed-strong');
+          }
+        }
+
+        btn.addEventListener('click', function(e){
+          var isOpen = btn.classList.contains('open');
+          setExpanded(!isOpen);
+        });
+
+        
+        nav.addEventListener('click', function(e){
+          if(e.target.classList.contains('nav__link')) setExpanded(false);
+        });
+
+        
+        document.addEventListener('click', function(e){
+          if(window.innerWidth > 900) return;
+          if(!btn.contains(e.target) && !nav.contains(e.target)) setExpanded(false);
+        });
+      })();
+
+      
+      (function(){
+        var page = document.querySelector('.page');
+        var navEl = document.getElementById('main-nav');
+        if(!page || !navEl) return;
+
+        function addDimHover(){ page.classList.add('dimmed'); }
+        function removeDimHover(){ page.classList.remove('dimmed'); }
+        function addDimStrong(){ page.classList.add('dimmed-strong'); }
+        function removeDimStrong(){ page.classList.remove('dimmed-strong'); }
+
+        
+        navEl.addEventListener('mouseenter', addDimHover);
+        navEl.addEventListener('mouseleave', removeDimHover);
+
+        
+        navEl.addEventListener('focusin', function(){ removeDimHover(); addDimStrong(); });
+        navEl.addEventListener('focusout', function(){
+          
+          setTimeout(function(){ if(!navEl.contains(document.activeElement)) removeDimStrong(); }, 0);
+        });
+      })();
+    </script>
+</body>
+</html>

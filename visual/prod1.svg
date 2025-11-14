@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="g1" x1="0" x2="1">
+      <stop offset="0%" stop-color="#FDEBD8"/>
+      <stop offset="100%" stop-color="#FFD3EA"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="#F7F2EE"/>
+  <rect x="40" y="40" width="1120" height="720" rx="16" fill="url(#g1)" />
+  <g transform="translate(120,120)" fill="#fff" opacity="0.9">
+    <rect x="0" y="0" width="280" height="160" rx="10" />
+    <rect x="320" y="0" width="520" height="160" rx="10" />
+    <rect x="0" y="200" width="760" height="420" rx="12" />
+  </g>
+  <text x="70" y="680" font-family="Manrope, Arial" font-size="22" fill="#6a5a4d">Фото: производство, пример</text>
+</svg>
